@@ -26,3 +26,13 @@
 
 ### return 0
 - The return statement is used to end a function. If the program reaches this statement, returning a value of 0 is an indication to the operating system that the code executed successfully. This line of code is optional.
+
+### Compile and Execute
+- Compile: A computer can only understand machine code. A compiler can translate the C++ programs that we write into machine code. You call on the compiler by using the terminal, which is the black panel to the right of the code editor that contains a dollar sign $. To compile a file, you need to type g++ followed by the file name in the terminal and press enter:
+  - g++ hello.cpp -> creates a.out
+- Execute: To execute the new machine code file, all you need to do is type ./ and the machine code file name in the terminal and press enter. In this case, our compiled file name is a.out. Putting it all together, we end up with the following:
+  - ./a.out
+ 
+### Compile to make an output executable with a diff name
+- g++ hello.cpp -o hello
+- ./hello
